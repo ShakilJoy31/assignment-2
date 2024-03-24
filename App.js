@@ -78,20 +78,20 @@ export default function App() {
        {
         isBottomPorson ? <View style={styles.thirdPorson}>
         <View style={{flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center'}}>
-          <Text style={{color: white, fontSize: 18,}}>Ada Lovelace</Text>
-          <Text style={{color: white, fontSize: 22, fontWeight: '700', marginTop: 12}}>Ada Lovelace</Text>
+          <Text style={{color: white, fontSize: 18,}}>Current timezone</Text>
+          <Text style={{color: white, fontSize: 22, fontWeight: '700', marginTop: 12}}>Europw/London</Text>
         </View>
         <View style={{flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center'}}>
-          <Text style={{color: white, fontSize: 18,}}>Ada Lovelace</Text>
-          <Text style={{color: white, fontSize: 22, fontWeight: '700', marginTop: 12}}>Ada Lovelace</Text>
+          <Text style={{color: white, fontSize: 18,}}>Day of the year</Text>
+          <Text style={{color: white, fontSize: 22, fontWeight: '700', marginTop: 12}}>295</Text>
         </View>
         <View style={{flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center'}}>
-          <Text style={{color: white, fontSize: 18,}}>Ada Lovelace</Text>
-          <Text style={{color: white, fontSize: 22, fontWeight: '700', marginTop: 12}}>Ada Lovelace</Text>
+          <Text style={{color: white, fontSize: 18,}}>Day of the week</Text>
+          <Text style={{color: white, fontSize: 22, fontWeight: '700', marginTop: 12}}>5</Text>
         </View>
         <View style={{flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center'}}>
-          <Text style={{color: white, fontSize: 18,}}>Ada Lovelace</Text>
-          <Text style={{color: white, fontSize: 22, fontWeight: '700', marginTop: 12}}>Ada Lovelace</Text>
+          <Text style={{color: white, fontSize: 18,}}>Week number</Text>
+          <Text style={{color: white, fontSize: 22, fontWeight: '700', marginTop: 12}}>42</Text>
         </View>
        </View> : ''
        }
